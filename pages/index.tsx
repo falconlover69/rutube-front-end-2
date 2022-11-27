@@ -1,8 +1,14 @@
+import Home from '@/components/pages/home/Home'
+import { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Home() {
+const HomePage: NextPage = () => {
   return (
-    <div>Heelo</div>
+    <Home />
   )
 }
+
+
+
+export default HomePage
